@@ -1,21 +1,21 @@
-# React Hooks State Lab – Shopping App
+# React Hooks State Lab - Shopping App
 
 A simple grocery shopping app built with React, demonstrating the use of core React Hooks (`useState`, `useCallback`, `useMemo`) for state management.
 
 ## Features
 
-- 🌙 **Dark Mode Toggle** – Switch between light and dark themes
-- 🛒 **Add to Cart** – Add products to your shopping cart (no duplicates)
-- 🔍 **Category Filtering** – Filter products by category (All, Fruits, Dairy)
-- 🔢 **Cart Count** – Displays the total number of items in the cart
+-  **Dark Mode Toggle** -Switch between light and dark themes
+-  **Add to Cart** -Add products to your shopping cart (no duplicates)
+-  **Category Filtering**- Filter products by category (All, Fruits, Dairy)
+-  **Cart Count**-Displays the total number of items in the cart
 
 ## Tech Stack
 
 - [React 18](https://react.dev/)
-- [Vite](https://vitejs.dev/) – development server & bundler
-- [Material UI](https://mui.com/) – UI components
-- [CSS Modules](https://github.com/css-modules/css-modules) – scoped styling
-- [Jest](https://jestjs.io/) + [React Testing Library](https://testing-library.com/) – testing
+- [Vite](https://vitejs.dev/)- development server & bundler
+- [Material UI](https://mui.com/)- UI components
+- [CSS Modules](https://github.com/css-modules/css-modules)-scoped styling
+- [Jest](https://jestjs.io/) + [React Testing Library](https://testing-library.com/)-testing
 
 ## Getting Started
 
@@ -70,4 +70,4 @@ src/
 
 ## License
 
-This project is licensed under the terms of the [LICENSE](LICENSE.md) file.
+Free to use for learning purposes.
