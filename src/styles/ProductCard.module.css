@@ -1,5 +1,50 @@
-/* TODO (optional): Style the product card container */
+/* Style the product card container */
+.card {
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin: 10px 0;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  max-width: 360px;
+}
 
-/* TODO (optional): Add special styling for out-of-stock products */
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
 
-/* TODO (optional): Style the add/remove button */
+/* Special styling for out-of-stock products */
+.outOfStock {
+  opacity: 0.55;
+  background-color: #f0f0f0;
+  border-color: #c0c0c0;
+}
+
+.outOfStock h3 {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Style the Add to Cart button */
+.addButton {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.addButton:hover {
+  background-color: #43a047;
+}
+
+.outOfStock .addButton {
+  background-color: #aaa;
+  cursor: not-allowed;
+}

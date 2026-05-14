@@ -1,11 +1,14 @@
 import React from 'react'
 
-const DarkModeToggle = () => {
-  // TODO: Implement dark mode toggle logic
-
+// React.memo caches DarkModeToggle — it will only re-render when isDarkMode or onToggle props change
+const DarkModeToggle = React.memo(({ isDarkMode, onToggle }) => {
   return (
-    <button>Toggle Dark Mode {/* TODO: Update this text from Dark to Light dynamically */}</button>
+    <button onClick={onToggle}>
+      {isDarkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
+    </button>
   )
-}
+})
+
+DarkModeToggle.displayName = 'DarkModeToggle'
 
 export default DarkModeToggle

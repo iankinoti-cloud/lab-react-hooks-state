@@ -1,3 +1,29 @@
-/* TODO (optional): Define styles for dark mode */
+/* Light mode (default) styles */
+.light {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  min-height: 100vh;
+  padding: 24px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 
-/* TODO (optional): Ensure text and background colors adjust for dark mode */
+/* Dark mode styles — text and background colors adjust accordingly */
+.dark {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  min-height: 100vh;
+  padding: 24px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark select {
+  background-color: #2c2c2c;
+  color: #f0f0f0;
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.dark ul {
+  color: #f0f0f0;
+}
